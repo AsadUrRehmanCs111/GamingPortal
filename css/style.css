@@ -8828,6 +8828,10 @@ body.visible-menu-bar .fullscreen-menu {
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 300ms ease;
   font-family: "Poppins", sans-serif;
+  text-align-last: center;
+}
+select {
+  text-align-last: center;
 }
 .select-game select option,
 .select-platform select option {
