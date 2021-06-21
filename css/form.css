@@ -25,9 +25,9 @@ body {
   padding: 15px;
   width: 150px;
   border: unset;
-  background: #262936;
+  background: #fff;
   border-radius: 50px;
-  color: #333;
+  color: #000;
   cursor: pointer;
 }
 .wrapper .content button:focus {
@@ -62,7 +62,7 @@ body {
 }
 .wrapper .content .social-login button span {
   font-size: 17px;
-  color: #777;
+  color: #000;
   margin-left: 5px;
 }
 .wrapper .content .login-form {
@@ -81,40 +81,44 @@ body {
 .wrapper .content .login-form .input-group input {
   padding: 15px;
   font-size: 13px;
-  border: 1px solid #262936;
-  background-color: #262936;
+  border: 1px solid #fff;
+  background-color: #fff;
   border-radius: 50px;
 }
 .wrapper .content .login-form .input-group input:focus {
-  color: #fff;
+  color: #eee;
   outline: 0;
 }
 .wrapper .content .login-form .input-group label {
-  color: #999;
+  color: #fff;
   font-size: 12px;
   margin-bottom: 3px;
   margin-left: 16px;
 }
 .wrapper .content .login-form .input-group button {
-  background-color: #3f5bd8;
+  background-color: #fff;
   border: unset;
-  color: #fff;
+  color: #000;
   align-self: center;
   margin-top: 15px;
 }
 .wrapper .content .login-form .input-group button:hover {
-  background-color: #262936;
+  background-color: #eee;
 }
 .wrapper .content footer {
   padding-top: 15px;
   text-align: center;
 }
 .wrapper .content footer a {
-  color: #999;
+  color: #fff;
   text-decoration: none;
   font-size: 11px;
 }
-
+.wrapper .content footer a:hover {
+  color: #eee !important;
+  text-decoration: none;
+  font-size: 11px;
+}
 @media screen and (max-width: 720px) {
   .wrapper .content {
     padding-right: 0;
